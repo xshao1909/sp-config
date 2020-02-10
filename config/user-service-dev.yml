@@ -17,7 +17,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka    
-      
+
 #暴露刷新端点(添加新数据后  不需要重新启动微服务项目)
 management:
   endpoints:
